@@ -22,8 +22,13 @@ dependencies {
 	testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.1")
 	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.1")
 
-	api(project(":module:com.sandpolis.core.instance"))
-	api(project(":module:com.sandpolis.core.net"))
+	if (project.getParent() == null) {
+		api("com.sandpolis:core.instance:0.1.0")
+		api("com.sandpolis:core.net:0.1.0")
+	} else {
+		api(project(":module:com.sandpolis.core.instance"))
+		api(project(":module:com.sandpolis.core.net"))
+	}
 
 	// https://github.com/javaee/jpa-spec
 	implementation("javax.persistence:javax.persistence-api:2.2")
