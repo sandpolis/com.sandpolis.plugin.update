@@ -9,3 +9,5 @@
 //============================================================================//
 
 rootProject.name = "com.sandpolis.plugin.update"
+
+include("agent:vanilla")
