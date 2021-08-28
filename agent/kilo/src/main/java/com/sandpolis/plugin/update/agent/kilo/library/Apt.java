@@ -7,7 +7,7 @@
 //  as published by the Mozilla Foundation.                                   //
 //                                                                            //
 //============================================================================//
-package com.sandpolis.plugin.update.agent.vanilla.library;
+package com.sandpolis.plugin.update.agent.kilo.library;
 
 import java.nio.file.Path;
 import java.util.List;
@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 
 import com.sandpolis.core.foundation.util.SystemUtil;
 import com.sandpolis.plugin.update.msg.MsgUpgrade.Package;
-import com.sandpolis.plugin.update.agent.vanilla.PackageManager;
+import com.sandpolis.plugin.update.agent.kilo.PackageManager;
 
 /**
  * Integration with Debian's Advanced Package Tool (APT).

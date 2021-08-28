@@ -7,8 +7,8 @@
 //  as published by the Mozilla Foundation.                                   //
 //                                                                            //
 //============================================================================//
-module com.sandpolis.plugin.update.agent.vanilla {
-	exports com.sandpolis.plugin.update.agent.vanilla;
+module com.sandpolis.plugin.update.agent.kilo {
+	exports com.sandpolis.plugin.update.agent.kilo;
 
 	requires com.google.common;
 	requires com.google.protobuf;

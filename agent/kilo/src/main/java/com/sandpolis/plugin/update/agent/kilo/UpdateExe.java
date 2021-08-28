@@ -7,7 +7,7 @@
 //  as published by the Mozilla Foundation.                                   //
 //                                                                            //
 //============================================================================//
-package com.sandpolis.plugin.update.agent.vanilla;
+package com.sandpolis.plugin.update.agent.kilo;
 
 import com.google.protobuf.MessageLiteOrBuilder;
 import com.sandpolis.core.foundation.Result.Outcome;

@@ -7,7 +7,7 @@
 //  as published by the Mozilla Foundation.                                   //
 //                                                                            //
 //============================================================================//
-package com.sandpolis.plugin.update.agent.vanilla.library;
+package com.sandpolis.plugin.update.agent.kilo.library;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -23,7 +23,7 @@ import org.slf4j.LoggerFactory;
 import com.sandpolis.core.foundation.util.SystemUtil;
 import com.sandpolis.core.foundation.util.TextUtil;
 import com.sandpolis.plugin.update.msg.MsgUpgrade.Package;
-import com.sandpolis.plugin.update.agent.vanilla.PackageManager;
+import com.sandpolis.plugin.update.agent.kilo.PackageManager;
 
 /**
  * Integration with Arch Linux's Pacman package management utility.

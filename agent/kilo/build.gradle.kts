@@ -24,7 +24,7 @@ dependencies {
 
 eclipse {
 	project {
-		name = "com.sandpolis.plugin.update:agent:vanilla"
-		comment = "com.sandpolis.plugin.update:agent:vanilla"
+		name = "com.sandpolis.plugin.update:agent:kilo"
+		comment = "com.sandpolis.plugin.update:agent:kilo"
 	}
 }

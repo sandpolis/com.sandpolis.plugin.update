@@ -1,6 +1,6 @@
 [
 	{
-		"name": "/profile//plugin/update/package/",
+		"name": "/profile/*/plugin/update/package/*",
 		"attributes": [
 			{
 				"name": "name",

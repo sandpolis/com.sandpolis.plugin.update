@@ -7,15 +7,15 @@
 //  as published by the Mozilla Foundation.                                   //
 //                                                                            //
 //============================================================================//
-package com.sandpolis.plugin.update.agent.vanilla;
+package com.sandpolis.plugin.update.agent.kilo;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
 import com.sandpolis.plugin.update.msg.MsgUpgrade.Package;
-import com.sandpolis.plugin.update.agent.vanilla.library.Apt;
-import com.sandpolis.plugin.update.agent.vanilla.library.Pacman;
+import com.sandpolis.plugin.update.agent.kilo.library.Apt;
+import com.sandpolis.plugin.update.agent.kilo.library.Pacman;
 
 /**
  * A package manager performs operations such as:
