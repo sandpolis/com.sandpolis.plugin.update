@@ -9,9 +9,9 @@
 //============================================================================//
 syntax = "proto3";
 
-package plugin.update.msg;
+package plugin.update;
 
-option java_package = "com.sandpolis.plugin.update.msg";
+option java_package = "com.sandpolis.plugin.update";
 
 message RQ_InstallOrUpgradePackages {
     repeated string package = 1;
