@@ -11,7 +11,7 @@ package com.sandpolis.plugin.update.agent.kilo;
 
 import com.google.protobuf.MessageLiteOrBuilder;
 import com.sandpolis.core.foundation.Result.Outcome;
-import com.sandpolis.core.net.exelet.Exelet;
+import com.sandpolis.core.instance.exelet.Exelet;
 import com.sandpolis.plugin.update.msg.MsgUpgrade.RQ_ManagerMetadata;
 import com.sandpolis.plugin.update.msg.MsgUpgrade.RS_ManagerMetadata;
 
