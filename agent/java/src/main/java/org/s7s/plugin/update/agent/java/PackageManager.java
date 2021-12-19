@@ -1,21 +1,20 @@
 //============================================================================//
 //                                                                            //
-//                         Copyright © 2015 Sandpolis                         //
+//            Copyright © 2015 - 2022 Sandpolis Software Foundation           //
 //                                                                            //
 //  This source file is subject to the terms of the Mozilla Public License    //
-//  version 2. You may not use this file except in compliance with the MPL    //
-//  as published by the Mozilla Foundation.                                   //
+//  version 2. You may not use this file except in compliance with the MPLv2. //
 //                                                                            //
 //============================================================================//
-package com.sandpolis.plugin.update.agent.kilo;
+package org.s7s.plugin.update.agent.java;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
-import com.sandpolis.plugin.update.msg.MsgUpgrade.Package;
-import com.sandpolis.plugin.update.agent.kilo.library.Apt;
-import com.sandpolis.plugin.update.agent.kilo.library.Pacman;
+import org.s7s.plugin.update.msg.MsgUpgrade.Package;
+import org.s7s.plugin.update.agent.java.library.Apt;
+import org.s7s.plugin.update.agent.java.library.Pacman;
 
 /**
  * A package manager performs operations such as:

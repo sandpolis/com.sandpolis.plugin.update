@@ -1,19 +1,18 @@
 //============================================================================//
 //                                                                            //
-//                         Copyright © 2015 Sandpolis                         //
+//            Copyright © 2015 - 2022 Sandpolis Software Foundation           //
 //                                                                            //
 //  This source file is subject to the terms of the Mozilla Public License    //
-//  version 2. You may not use this file except in compliance with the MPL    //
-//  as published by the Mozilla Foundation.                                   //
+//  version 2. You may not use this file except in compliance with the MPLv2. //
 //                                                                            //
 //============================================================================//
-package com.sandpolis.plugin.update.agent.kilo;
+package org.s7s.plugin.update.agent.java;
 
 import com.google.protobuf.MessageLiteOrBuilder;
-import com.sandpolis.core.foundation.Result.Outcome;
-import com.sandpolis.core.instance.exelet.Exelet;
-import com.sandpolis.plugin.update.msg.MsgUpgrade.RQ_ManagerMetadata;
-import com.sandpolis.plugin.update.msg.MsgUpgrade.RS_ManagerMetadata;
+import org.s7s.core.foundation.Result.Outcome;
+import org.s7s.core.instance.exelet.Exelet;
+import org.s7s.plugin.update.msg.MsgUpgrade.RQ_ManagerMetadata;
+import org.s7s.plugin.update.msg.MsgUpgrade.RS_ManagerMetadata;
 
 public final class UpdateExe extends Exelet {
 
